@@ -5,7 +5,7 @@
 -- ============================================
 
 -- 1. Database Initialization
--- Using utf8mb4 to support multi-byte characters (e.g., emojis in product reviews).
+-- Using utf8mb4 to support multi-byte characters
 DROP DATABASE IF EXISTS ecom_portfolio_db;
 CREATE DATABASE IF NOT EXISTS ecom_portfolio_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE ecom_portfolio_db;
